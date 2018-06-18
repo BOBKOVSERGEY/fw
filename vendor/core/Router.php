@@ -2,32 +2,115 @@
 
 class Router
 {
+
+  /**
+   * таблица маршрутов
+   * @var array
+   */
   protected static $routes = [];
+
+  /**
+   * текущий маршрут
+   * @var array
+   */
   protected static $route = [];
 
+  /**
+   * добавляет маршрут в таблицу маршрутов
+   *
+   * @param string $regexp регулярное выражение маршрута
+   * @param array $route маршрут ([controller, action, params])
+   */
   public static function add($regexp, $route = [])
   {
     self::$routes[$regexp] = $route;
   }
 
+  /**
+   * возвращает таблицу маршрутов
+   *
+   * @return array
+   */
   public static function getRoutes()
   {
     return self::$routes;
   }
 
+  /**
+   * возвращает текущий маршрут (controller, action, [params])
+   *
+   * @return array
+   */
   public static function getRoute()
   {
     return self::$route;
   }
 
+  /**
+   * ищет URL в таблице маршрутов
+   * @param string $url входящий URL
+   * @return boolean
+   */
   public static function matchRoute($url)
   {
     foreach (self::$routes as $pattern => $route) {
-      if ($url == $pattern) {
+      if (preg_match("#$pattern#i", $url, $matches)) {
+        foreach ($matches as $k => $v) {
+          if (is_string($k)) {
+            $route[$k] = $v;
+          }
+        }
+        if (!isset($route['action'])) {
+          $route['action'] = 'index';
+        }
         self::$route = $route;
         return true;
       }
-      return false;
     }
+    return false;
+  }
+
+  /**
+   * перенаправляет URL по корректному маршруту
+   * @param string $url входящий URL
+   */
+
+  public static function dispatch($url)
+  {
+    if (self::matchRoute($url)) {
+      $controller = self::upperCamelCase(self::$route['controller']);
+      if (class_exists($controller)) {
+        $cObj = new $controller;
+        $action = self::lowerCamelCase(self::$route['action']) . "Action";
+        if (method_exists($cObj, $action)) {
+          $cObj->$action();
+        } else {
+          echo "Метод <strong>$controller::$action</strong> не найден";
+        }
+      } else {
+        echo "Контроллер <strong>$controller</strong> не найден";
+      }
+    } else {
+      http_response_code(404);
+      include '404.html';
+    }
+  }
+
+  protected static function upperCamelCase($name)
+  {
+    // убираем дефис
+    $name = str_replace('-', ' ', $name);
+    // каждое новое слово в верхний регистр
+    $name = ucwords($name);
+    // убираем пробел
+    $name = str_replace(' ', '', $name);
+    // возвращаем результат
+    return $name;
+  }
+
+  protected static function lowerCamelCase($name)
+  {
+    // делаем первую букву маленькой
+    return lcfirst(self::upperCamelCase($name));
   }
 }
