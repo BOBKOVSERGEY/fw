@@ -1,29 +1,39 @@
 <?php
 
+namespace app\controllers;
 
-class Posts
+use vendor\core\base\Controller;
+
+class Posts extends Controller
 {
-  public function __construct()
-  {
-    echo "Posts::__constructor";
-  }
 
   public function indexAction()
   {
+
     echo "Метод Post::index";
+
   }
+
   public function testAction()
   {
+
+    debug($this->route);
     echo "Метод Post::test";
+
   }
+
   public function testPageAction()
   {
+
     echo "Метод Post::testPage";
+
   }
 
   public function before()
   {
+
     echo "Метод Post::before";
+
   }
 
 }
