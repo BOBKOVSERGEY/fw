@@ -20,10 +20,20 @@ class MainController extends AppController
 
     $posts = $model->findAll();
 
-    //debug($posts);
+    //$post = $model->findOne(4);
+
+
+
+    //$data = $model->findBySql("SELECT * FROM {$model->table} ORDER BY id DESC LIMIT 2");
+    //$data = $model->findBySql("SELECT * FROM {$model->table} WHERE title LIKE ?", ['%Советы%']);
+
+    //$data = $model->findLike('пост', 'title');
+
+    //debug($data );
+
 
     $title = 'Page title';
 
-    $this->set(compact('title','posts'));
+    $this->set(compact('title','posts', 'post'));
   }
 }
