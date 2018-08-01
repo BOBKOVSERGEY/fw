@@ -4,6 +4,7 @@ namespace app\controllers;
 
 
 use app\models\Main;
+use vendor\core\App;
 
 class MainController extends AppController
 {
@@ -14,9 +15,27 @@ class MainController extends AppController
   public function indexAction()
   {
 
+    //App::$app->getList();
+    \R::fancyDebug(true);
     $model = new Main;
+    $posts = App::$app->cache->get('posts');
 
-    $posts = \R::findAll('posts');
+    if (!$posts) {
+      $posts = \R::findAll('posts');
+
+      App::$app->cache->set('posts', $posts);
+      //App::$app->cache->set('posts', $posts, 3600 * 24);
+    }
+
+
+
+
+
+
+    //echo date('Y-m-d H:i:s', time());
+    //echo '<br>';
+    //echo date('Y-m-d H:i:s', 1533121292);
+
     $menu = $this->menu;
 
 
