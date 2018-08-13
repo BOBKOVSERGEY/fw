@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php echo $meta['title']; ?></title>
+    <title><?php if($meta['title']) echo $meta['title']; ?></title>
     <meta name="keywords" content="<?php echo $meta['keywords']; ?>"/>
     <meta name="description" content="<?php echo $meta['desc']; ?>"/>
   <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
@@ -28,11 +28,12 @@
 </div>
 <?php echo $content; ?>
 
-<p><?php //debug(\vendor\core\Db::$countSql); ?></p>
-<p><?php //debug(\vendor\core\Db::$queries); ?></p>
-
-
 <script src="/bootstrap/jquery-3.3.1.min.js"></script>
 <script src="/bootstrap/bootstrap.min.js"></script>
+<?php
+  foreach ($scripts as $script) {
+    echo $script;
+  }
+?>
 </body>
 </html>
