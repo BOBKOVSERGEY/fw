@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47f0d8d-965d-4123-bd69-c266b84814d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/libs/zg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Main/_test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/core/TSingleton.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/18958e30bdca0cfac8256824e570a89b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/core/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/core/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/core/Registry.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/core/Registry.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/core/base/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/core/base/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/core/base/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/core/base/View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/libs/functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,45 +34,50 @@
     <session id="-344786561">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="37" />
-          <entry key="php" value="975" />
+          <entry key="css" value="26" />
+          <entry key="js" value="69" />
+          <entry key="php" value="2102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="37" />
-          <entry key="PHP" value="975" />
+          <entry key="CSS" value="26" />
+          <entry key="JavaScript" value="69" />
+          <entry key="PHP" value="2102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="1" />
-          <entry key="php" value="11" />
+          <entry key="css" value="4" />
+          <entry key="js" value="5" />
+          <entry key="php" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="11" />
+          <entry key="CSS" value="4" />
+          <entry key="JavaScript" value="5" />
+          <entry key="PHP" value="37" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1032">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            <state relative-caret-position="480">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
               <folding>
                 <element signature="e#36#56#0#PHP" expanded="true" />
               </folding>
@@ -83,55 +86,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/core/base/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Main/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/core/base/View.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="458">
+              <caret line="101" column="67" selection-start-line="101" selection-start-column="67" selection-end-line="101" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -139,17 +97,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="192">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/test.php">
+        <entry file="file://$PROJECT_DIR$/app/views/Main/_test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state>
+              <caret selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Main/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="48" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/core/Db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/core/Registry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/core/TSingleton.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Main/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -170,22 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/Posts/test.php" />
-        <option value="$PROJECT_DIR$/app/views/Posts/index.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp20342/.htaccess" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp13509/personal/rules/personal_data.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp04881/local/templates/romza_bitronic2_2.23.8/header.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp26174/.htaccess" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp26964/bitrix/modules/tinkoff.payment/install/sale_payment/tinkoff/result.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp14027/local/templates/romza_bitronic2_2.23.8/footer.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/app/views/Main/test.php" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
-        <option value="$PROJECT_DIR$/app/controllers/App.php" />
-        <option value="$PROJECT_DIR$/app/controllers/Main.php" />
-        <option value="$PROJECT_DIR$/app/controllers/Page.php" />
-        <option value="$PROJECT_DIR$/app/controllers/Posts.php" />
-        <option value="$PROJECT_DIR$/app/controllers/PostsNew.php" />
         <option value="$PROJECT_DIR$/vendor/core/Router.php" />
         <option value="$PROJECT_DIR$/config/config_db.php" />
         <option value="$PROJECT_DIR$/app/models/Main.php" />
@@ -198,7 +194,6 @@
         <option value="$PROJECT_DIR$/public/test.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp23387/wwwhome/test.pktitan.ru/www/index.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp25829/wwwhome/test.pktitan.ru/www/lpv/index.html" />
-        <option value="$PROJECT_DIR$/vendor/core/Db.php" />
         <option value="$PROJECT_DIR$/app/controllers/PageController.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/test.php" />
         <option value="$PROJECT_DIR$/app/controllers/AppController.php" />
@@ -209,18 +204,35 @@
         <option value="$PROJECT_DIR$/public/test/classes/Test2.php" />
         <option value="$PROJECT_DIR$/public/test/index.php" />
         <option value="$PROJECT_DIR$/vendor/core/App.php" />
-        <option value="$PROJECT_DIR$/vendor/core/Registry.php" />
         <option value="$PROJECT_DIR$/vendor/libs/Cache.php" />
         <option value="$PROJECT_DIR$/vendor/libs/functions.php" />
         <option value="$PROJECT_DIR$/vendor/libs/zg.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa2784.9089/Controller.php" />
-        <option value="$PROJECT_DIR$/vendor/core/base/Controller.php" />
-        <option value="$PROJECT_DIR$/app/controllers/MainController.php" />
         <option value="$PROJECT_DIR$/app/views/Main/index.php" />
         <option value="$PROJECT_DIR$/public/js/test.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/default.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp52632/wp-content/themes/delakrua/inc/zg.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp50587/wp-content/themes/delakrua/header.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp02136/wp-content/themes/delakrua/footer-contacts.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp03595/wp-content/themes/delakrua/footer.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp13651/wp-content/themes/delakrua/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp36968/wwwhome/test.pktitan.ru/www/local/templates/.default/footer.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp59684/local/templates/spetstrub/footer.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp04823/local/templates/spetstrub/dist/js/googlemap.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp43403/local/templates/spetstrub/header.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp53149/local/templates/spetstrub/dist/js/lib.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp02797/local/templates/spetstrub/dist/js/main.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp58417/kontakty/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp45857/local/templates/spetstrub/dist/css/style.css" />
+        <option value="$PROJECT_DIR$/vendor/core/base/Controller.php" />
+        <option value="$PROJECT_DIR$/app/views/Main/test.php" />
+        <option value="$PROJECT_DIR$/app/views/Main/_test.php" />
+        <option value="$PROJECT_DIR$/app/controllers/MainController.php" />
         <option value="$PROJECT_DIR$/vendor/core/base/View.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/default.php" />
+        <option value="$PROJECT_DIR$/vendor/core/TSingleton.php" />
+        <option value="$PROJECT_DIR$/vendor/core/Db.php" />
+        <option value="$PROJECT_DIR$/vendor/core/Registry.php" />
       </list>
     </option>
   </component>
@@ -231,8 +243,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="690" />
-    <option name="width" value="1240" />
+    <option name="x" value="886" />
+    <option name="width" value="1036" />
     <option name="height" value="989" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -276,6 +288,12 @@
               <item name="fw" type="b2602c69:ProjectViewProjectNode" />
               <item name="fw" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fw" type="b2602c69:ProjectViewProjectNode" />
@@ -331,6 +349,12 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fw" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -341,7 +365,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
@@ -350,6 +374,9 @@
       <recent name="C:\OSPanel\domains\fw\public\bootstrap" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\fw\app\views\Main" />
+      <recent name="C:\Users\bobko\Desktop" />
+      <recent name="C:\Users\bobko\AppData\Local\Temp\scp58417\kontakty" />
       <recent name="C:\OSPanel\domains\fw\public" />
       <recent name="E:\OpenServer\domains\fw\public" />
     </key>
@@ -414,18 +441,45 @@
       <workItem from="1532935143103" duration="7966000" />
       <workItem from="1533109590196" duration="10379000" />
       <workItem from="1534160052387" duration="5197000" />
-      <workItem from="1534167504597" duration="1916000" />
+      <workItem from="1534167504597" duration="2638000" />
+      <workItem from="1534231787077" duration="601000" />
+      <workItem from="1534409435588" duration="9934000" />
+      <workItem from="1534926333814" duration="3892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95603000" />
+    <option name="totallyTimeSpent" value="110752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="690" y="0" width="1240" height="989" extended-state="0" />
+    <frame x="886" y="0" width="1036" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1661017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3125" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Get Gist" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29206732" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="The R Graphics" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32905984" />
+      <window_info anchor="right" id="Packages" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13082902" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -447,28 +501,6 @@
       <window_info anchor="right" id="The R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32905984" />
       <window_info anchor="right" id="Packages" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31623036" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Get Gist" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="The R Graphics" order="3" />
-      <window_info anchor="right" id="Packages" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,102 +510,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/core/base/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fw.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp42482/local/templates/romza_bitronic2_2.23.8/components/bitrix/catalog/.default/section.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp56954/local/templates/romza_bitronic2_2.23.8/components/bitrix/catalog/.default/.parameters.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp57680/local/templates/romza_bitronic2_2.23.8/components/bitrix/catalog/.default/bitrix/catalog.section/list/template.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp42138/local/templates/romza_bitronic2_2.23.8/components/bitrix/catalog/.default/sections.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp40468/local/templates/romza_bitronic2_2.23.8/components/bitrix/catalog/.default/element.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp34899/catalog/index.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp13049/local/templates/romza_bitronic2_2.23.8/header.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp30584/local/templates/romza_bitronic2_2.23.8/dist/css/style.css" />
-    <entry file="file://$USER_HOME$/Desktop/rb-mysql.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp58190/bitrix/footer.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp15660/home/admin/web/universal-m.ru/public_html/.htaccess" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp14994/.htaccess" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp58034/bitrix/.settings.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa11200.46015/rb-mysql.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/libs/rb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="10553" column="12" lean-forward="true" selection-start-line="10553" selection-start-column="12" selection-end-line="10553" selection-end-column="12" />
-          <folding>
-            <marker date="1477379152000" expanded="true" signature="6807:6816" ph="..." />
-            <marker date="1477379152000" expanded="true" signature="7457:7468" ph="..." />
-            <marker date="1477379152000" expanded="true" signature="133687:133814" ph="INSERT INTO ${$table}... " />
-            <marker date="1477379152000" expanded="true" signature="134084:134125" ph="INSERT INTO ${$table}... " />
-            <marker date="1477379152000" expanded="true" signature="136435:136466" ph="ALTER TABLE ${$table}... " />
-            <marker date="1477379152000" expanded="true" signature="137119:137136" ph="UPDATE ${$table}... " />
-            <marker date="1477379152000" expanded="true" signature="138831:138886" ph="SELECT ${{$f... " />
-            <marker date="1477379152000" expanded="true" signature="139313:139345" ph="SELECT ${{$t... " />
-            <marker date="1477379152000" expanded="true" signature="140362:140789" ph="SELECT ${{$d... " />
-            <marker date="1477379152000" expanded="true" signature="140894:141128" ph="SELECT ${{$d... " />
-            <marker date="1477379152000" expanded="true" signature="141969:142122" ph="SELECT ${{$l... " />
-            <marker date="1477379152000" expanded="true" signature="142252:142353" ph="SELECT ${{$l... " />
-            <marker date="1477379152000" expanded="true" signature="142958:143214" ph="SELECT ${{$t... " />
-            <marker date="1477379152000" expanded="true" signature="143759:143789" ph="SELECT COUNT... $" />
-            <marker date="1477379152000" expanded="true" signature="144298:144534" ph="SELECT COUNT... $" />
-            <marker date="1477379152000" expanded="true" signature="144658:144808" ph="SELECT COUNT... $" />
-            <marker date="1477379152000" expanded="true" signature="145285:145306" ph="DELETE FROM $... " />
-            <marker date="1477379152000" expanded="true" signature="145670:145752" ph="DELETE FROM $... " />
-            <marker date="1477379152000" expanded="true" signature="145846:145897" ph="DELETE FROM $... " />
-            <marker date="1477379152000" expanded="true" signature="146281:146323" ph="ALTER TABLE ${$table}... " />
-            <marker date="1477379152000" expanded="true" signature="150456:151558" ph="SELECT infor... key_column_usage" />
-            <marker date="1477379152000" expanded="true" signature="153752:153914" ph="CREATE TABLE... ${$table}" />
-            <marker date="1477379152000" expanded="true" signature="156877:156960" ph="ALTER TABLE ${$table}... " />
-            <marker date="1477379152000" expanded="true" signature="158568:158716" ph="ALTER TABLE $... " />
-            <marker date="1477379152000" expanded="true" signature="159527:159552" ph="DROP TABLE I... " />
-            <marker date="1477379152000" expanded="true" signature="162136:162167" ph="DROP TABLE I... " />
-            <marker date="1477379152000" expanded="true" signature="162407:162452" ph="INSERT INTO tmp_backup... " />
-            <marker date="1477379152000" expanded="true" signature="162430:162452" ph="SELECT * FRO... ${$table}" />
-            <marker date="1477379152000" expanded="true" signature="162503:162522" ph="DROP TABLE `... " />
-            <marker date="1477379152000" expanded="true" signature="162928:163017" ph="CREATE TABLE... ${$table}" />
-            <marker date="1477379152000" expanded="true" signature="163415:163460" ph="INSERT INTO `${$table}`... " />
-            <marker date="1477379152000" expanded="true" signature="163436:163460" ph="SELECT * FRO... tmp_backup" />
-            <marker date="1477379152000" expanded="true" signature="163474:163495" ph="DROP TABLE t... " />
-            <marker date="1477379152000" expanded="true" signature="167948:167983" ph="ALTER TABLE `${$table}`... " />
-            <marker date="1477379152000" expanded="true" signature="168577:168657" ph="SELECT name sqlite_master" />
-            <marker date="1477379152000" expanded="true" signature="168799:168859" ph="CREATE TABLE... ${$table}" />
-            <marker date="1477379152000" expanded="true" signature="170607:170619" ph="DELETE FROM ${$table}... " />
-            <marker date="1477379152000" expanded="true" signature="171054:171079" ph="DROP TABLE I... " />
-            <marker date="1477379152000" expanded="true" signature="171159:171184" ph="DROP TABLE I... " />
-            <marker date="1477379152000" expanded="true" signature="173326:175349" ph="SELECT infor... key_column_usage" />
-            <marker date="1477379152000" expanded="true" signature="177131:177232" ph="SELECT table... tables" />
-            <marker date="1477379152000" expanded="true" signature="177387:177430" ph="CREATE TABLE... ${$table}" />
-            <marker date="1477379152000" expanded="true" signature="177608:177746" ph="SELECT colum... columns" />
-            <marker date="1477379152000" expanded="true" signature="180251:180263" ph="ALTER TABLE ${$table}... " />
-            <marker date="1477379152000" expanded="true" signature="180750:180849" ph="ALTER TABLE $... " />
-            <marker date="1477379152000" expanded="true" signature="182273:182377" ph="ALTER TABLE $... " />
-            <marker date="1477379152000" expanded="true" signature="182812:182843" ph="DROP TABLE I... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23387/wwwhome/test.pktitan.ru/www/index.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp25829/wwwhome/test.pktitan.ru/www/lpv/index.html" />
     <entry file="file://$PROJECT_DIR$/app/controllers/PageController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -612,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/core/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="43" column="3" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="43" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/test/classes/Test2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -645,13 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1464">
           <caret line="61" column="3" selection-start-line="18" selection-start-column="2" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/core/Registry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -683,13 +605,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2784.9089/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2784.9089/Controller.php" />
     <entry file="file://$PROJECT_DIR$/vendor/libs/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -697,41 +613,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2784.47151/View.php" />
     <entry file="file://$PROJECT_DIR$/vendor/libs/zg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="397">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/MainController.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp01766/wp-content/themes/delakrua/page.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp52632/wp-content/themes/delakrua/inc/zg.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp01247/wp-content/themes/delakrua/category.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp50587/wp-content/themes/delakrua/header.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp02136/wp-content/themes/delakrua/footer-contacts.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp03595/wp-content/themes/delakrua/footer.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp13651/wp-content/themes/delakrua/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp04823/local/templates/spetstrub/dist/js/googlemap.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp34993/local/templates/spetstrub/dist/css/main.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp58417/kontakty/style.css" />
+    <entry file="file://$USER_HOME$/Desktop/style.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp43403/local/templates/spetstrub/header.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp36968/wwwhome/test.pktitan.ru/www/local/templates/.default/footer.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp02797/local/templates/spetstrub/dist/js/main.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp53149/local/templates/spetstrub/dist/js/lib.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp59684/local/templates/spetstrub/footer.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp58417/kontakty/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp45857/local/templates/spetstrub/dist/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/public/js/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding>
-            <element signature="e#36#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/core/base/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="48">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -742,38 +653,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/test.js">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="98">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2784.47151/View.php">
+    <entry file="file://$PROJECT_DIR$/vendor/core/base/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="47" />
+        <state relative-caret-position="530">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Main/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Main/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="88">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
+    <entry file="file://$PROJECT_DIR$/app/views/Main/_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="e#36#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/core/base/View.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        <state relative-caret-position="458">
+          <caret line="101" column="67" selection-start-line="101" selection-start-column="67" selection-end-line="101" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="48" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/core/TSingleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/core/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/core/Registry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>

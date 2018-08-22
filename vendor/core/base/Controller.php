@@ -43,4 +43,11 @@ abstract class Controller
     
   }
 
+  public function loadView($view, $vars = [])
+  {
+    // получаем из массива переменные
+    extract($vars);
+    require APP . "/views/{$this->route['controller']}/{$view}.php";
+  }
+
 }
