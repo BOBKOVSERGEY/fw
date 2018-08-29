@@ -1,0 +1,26 @@
+[2018-08-29 17:07:16] Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: C:\OSPanel\domains\fw\app\controllers\MainController.php, | Строка: 21
+==========================
+[2018-08-29 17:07:16] Текст ошибки: Use of undefined constant DEBUG - assumed 'DEBUG' | Файл: C:\OSPanel\domains\fw\vendor\core\ErrorHandler.php, | Строка: 66
+==========================
+[2018-08-29 17:07:39] Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: C:\OSPanel\domains\fw\app\controllers\MainController.php, | Строка: 21
+==========================
+[2018-08-29 17:15:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\core\Router.php, | Строка: 105
+==========================
+[2018-08-29 17:15:40] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\core\Router.php, | Строка: 105
+==========================
+[2018-08-29 17:18:17] Текст ошибки: Undefined variable: test | Файл: C:\OSPanel\domains\fw\app\controllers\MainController.php, | Строка: 20
+==========================
+[2018-08-29 17:20:03] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\core\Router.php, | Строка: 105
+==========================
+[2018-08-29 17:20:03] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\core\Router.php, | Строка: 105
+==========================
+[2018-08-29 17:20:15] Текст ошибки: Undefined variable: test | Файл: C:\OSPanel\domains\fw\app\controllers\MainController.php, | Строка: 20
+==========================
+[2018-08-29 17:21:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\core\Router.php, | Строка: 105
+==========================
+[2018-08-29 17:21:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\core\Router.php, | Строка: 105
+==========================
+[2018-08-29 17:21:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\core\Router.php, | Строка: 105
+==========================
+[2018-08-29 17:21:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\core\Router.php, | Строка: 105
+==========================
