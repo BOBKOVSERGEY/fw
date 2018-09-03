@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июл 20 2018 г., 16:29
+-- Время создания: Сен 03 2018 г., 16:07
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.0.26
 
@@ -21,6 +21,80 @@ SET time_zone = "+00:00";
 --
 -- База данных: `fw`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `categories`
+--
+
+CREATE TABLE `categories` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `parent` int(10) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `categories`
+--
+
+INSERT INTO `categories` (`id`, `title`, `parent`) VALUES
+(685, 'Комплектующие к Apple', 0),
+(691, 'Запчасти iPad', 685),
+(692, 'Запчасти iPhone', 685),
+(693, 'Запчасти iPod', 685),
+(694, 'Запчасти Mac', 685),
+(695, 'iPad', 691),
+(696, 'iPad 2', 691),
+(697, 'iPad NEW (iPad 3)', 691),
+(698, 'iPad 4', 691),
+(699, 'iPad mini', 691),
+(700, 'iPhone', 692),
+(701, 'iPhone 3G/3GS', 692),
+(702, 'iPhone 4', 692),
+(703, 'iPhone 4S', 692),
+(704, 'iPhone 5', 692),
+(705, 'Микросхемы Apple', 685),
+(836, 'Защитные плёнки на Apple', 0),
+(840, 'iPad', 836),
+(841, 'iPhone', 836),
+(842, 'iPod', 836),
+(843, 'Mac', 836),
+(853, 'Оборудование для ремонта Apple', 0),
+(876, 'Аксессуары для Apple', 0),
+(877, 'Аксессуары iPad', 876),
+(878, 'Аксессуары iPhone', 876),
+(879, 'Аксессуары iPod', 876),
+(880, 'Аксессуары Mac', 876),
+(881, 'iPad', 877),
+(882, 'iPad 2', 877),
+(883, 'iPad NEW 3 / iPad 4', 877),
+(884, 'iPad mini', 877),
+(885, 'iPhone 3G / 3GS', 878),
+(886, 'iPhone 4 / 4S', 878),
+(887, 'iPhone 5', 878),
+(888, 'Аксессуары для Apple', 876),
+(895, 'iPhone 5 Lamborghini', 878);
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `category`
+--
+
+CREATE TABLE `category` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `category`
+--
+
+INSERT INTO `category` (`id`, `title`) VALUES
+(1, 'Категория 1'),
+(2, 'Категория 2'),
+(3, 'Категория 3');
 
 -- --------------------------------------------------------
 
@@ -54,10 +128,38 @@ INSERT INTO `posts` (`id`, `category_id`, `title`, `excerpt`, `text`, `keywords`
 --
 
 --
+-- Индексы таблицы `categories`
+--
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `category`
+--
+ALTER TABLE `category`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `posts`
 --
 ALTER TABLE `posts`
   ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT для сохранённых таблиц
+--
+
+--
+-- AUTO_INCREMENT для таблицы `categories`
+--
+ALTER TABLE `categories`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1001;
+
+--
+-- AUTO_INCREMENT для таблицы `category`
+--
+ALTER TABLE `category`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
