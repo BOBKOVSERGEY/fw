@@ -1,2 +1,10 @@
 [2018-09-12 16:23:21] Текст ошибки: Class 'vendor\core\base\View' not found | Файл: C:\OSPanel\domains\fw\app\views\layouts\default.php, | Строка: 8
 ==========================
+[2018-10-02 13:27:10] Текст ошибки: <p>Не найден вид <b>C:\OSPanel\domains\fw/app/views/User/logout.php</b></p> | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\View.php, | Строка: 57
+==========================
+[2018-10-02 13:28:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-02 14:11:18] Текст ошибки: Use of undefined constant attributes - assumed 'attributes' | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\Model.php, | Строка: 23
+==========================
+[2018-10-02 14:11:40] Текст ошибки: Use of undefined constant attributes - assumed 'attributes' | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\Model.php, | Строка: 23
+==========================
