@@ -8,3 +8,63 @@
 ==========================
 [2018-10-02 14:11:40] Текст ошибки: Use of undefined constant attributes - assumed 'attributes' | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\Model.php, | Строка: 23
 ==========================
+[2018-10-04 14:15:10] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 14:53:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:10:38] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user1' for key 'login' | Файл: C:\OSPanel\domains\fw\vendor\fw\libs\rb.php, | Строка: 720
+==========================
+[2018-10-11 15:27:30] Текст ошибки: Expected array, string given. | Файл: C:\OSPanel\domains\fw\vendor\fw\libs\rb.php, | Строка: 8652
+==========================
+[2018-10-11 15:27:33] Текст ошибки: Метод <strong>app\controllers\UserController::indexAction</strong> не найден | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 113
+==========================
+[2018-10-11 15:28:59] Текст ошибки: Expected array, string given. | Файл: C:\OSPanel\domains\fw\vendor\fw\libs\rb.php, | Строка: 8652
+==========================
+[2018-10-11 15:33:51] Текст ошибки: Expected array, string given. | Файл: C:\OSPanel\domains\fw\vendor\fw\libs\rb.php, | Строка: 8652
+==========================
+[2018-10-11 15:34:58] Текст ошибки: Expected array, string given. | Файл: C:\OSPanel\domains\fw\vendor\fw\libs\rb.php, | Строка: 8652
+==========================
+[2018-10-11 15:35:27] Текст ошибки: Expected array, string given. | Файл: C:\OSPanel\domains\fw\vendor\fw\libs\rb.php, | Строка: 8652
+==========================
+[2018-10-11 15:40:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:40:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:41:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:41:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:41:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:41:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:41:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:41:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:44:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:44:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:48:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:48:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:50:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:50:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:51:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:51:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:54:43] Текст ошибки: Undefined property: fw\core\base\View::$prefix | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\View.php, | Строка: 48
+==========================
+[2018-10-11 15:56:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:56:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:57:06] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-11 15:57:07] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
