@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Сен 03 2018 г., 16:07
+-- Время создания: Окт 16 2018 г., 15:39
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.0.26
 
@@ -123,6 +123,30 @@ INSERT INTO `posts` (`id`, `category_id`, `title`, `excerpt`, `text`, `keywords`
 (4, 4, 'Тестовый пост', 'lorem ipsum...', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia optio odit unde quam dolore vel vitae in! Obcaecati velit rem alias exercitationem error eveniet autem, voluptatibus esse ab placeat blanditiis omnis! Necessitatibus, officia velit, laboriosam deleniti quis aperiam? Nesciunt inventore consequuntur dolores, excepturi magnam illum modi unde quis sit deserunt.</p>', '', ''),
 (5, 4, 'Тестовый пост 2', 'Краткое описание статьи \"Тестовый пост\"', '42342', '', '');
 
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(255) UNSIGNED NOT NULL,
+  `login` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `role` enum('user','admin') NOT NULL DEFAULT 'user'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `user`
+--
+
+INSERT INTO `user` (`id`, `login`, `password`, `email`, `name`, `role`) VALUES
+(3, 'user1', '$2y$10$OlSwwCQXhck7KkL/i0J/K.Op0oqiE/dYU3xosD7mnOHOBaE6v.Poe', 'user1@inbox.ru', 'user1', 'user'),
+(5, 'user2', '$2y$10$WGUUluaykL80Tt/NBmZC/..FXqOob/nv0vFE/5W2SbVe2LehVq2Xi', 'user2@inbox.ru', 'user2', 'user'),
+(6, 'user4', '$2y$10$.EWekeF5tBuROOFTzh.QG.6VTUd3IdqfisX8Le0Iq0CK2TpaHcqFG', 'user4@inbox.ru', 'user4', 'user');
+
 --
 -- Индексы сохранённых таблиц
 --
@@ -146,6 +170,14 @@ ALTER TABLE `posts`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `login` (`login`),
+  ADD UNIQUE KEY `email` (`email`);
+
+--
 -- AUTO_INCREMENT для сохранённых таблиц
 --
 
@@ -153,13 +185,19 @@ ALTER TABLE `posts`
 -- AUTO_INCREMENT для таблицы `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1001;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=896;
 
 --
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT для таблицы `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(255) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

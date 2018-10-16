@@ -52,6 +52,9 @@
     <?php echo $_SESSION['success']; unset($_SESSION['success']); ?>
   </div>
 <?php } ?>
+
+<?php debug($_SESSION); ?>
+
 <?php echo $content; ?>
 
 <script src="/bootstrap/jquery-3.3.1.min.js"></script>

@@ -68,3 +68,9 @@
 ==========================
 [2018-10-11 15:57:07] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
 ==========================
+[2018-10-16 14:38:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-16 15:28:52] Текст ошибки: <p>Не найден вид <b>C:\OSPanel\domains\fw/app/views/User/logout.php</b></p> | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\View.php, | Строка: 60
+==========================
+[2018-10-16 15:29:11] Текст ошибки: <p>Не найден вид <b>C:\OSPanel\domains\fw/app/views/User/logout.php</b></p> | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\View.php, | Строка: 60
+==========================
