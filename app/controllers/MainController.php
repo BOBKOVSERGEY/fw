@@ -6,6 +6,7 @@ namespace app\controllers;
 use app\models\Main;
 use fw\core\App;
 use fw\core\base\View;
+use fw\libs\Pagination;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
@@ -19,32 +20,26 @@ class MainController extends AppController
   {
 
 
-// create a log channel
-    $log = new Logger('name');
-    $log->pushHandler(new StreamHandler(ROOT . '/tmp/your.log', Logger::WARNING));
-
-    // add records to the log
-    $log->warning('Foo');
-    $log->error('Bar');
-
-    //\R::fancyDebug(true);
     $model = new Main;
 
-    $posts = \R::findAll('posts');
+
+    $total = \R::count('posts');
+    $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+    $perpage = 3;
+
+    $pagination = new Pagination($page, $perpage, $total);
+    $start = $pagination->getStart();
+
+    $posts = \R::findAll('posts', "LIMIT $start, $perpage");
 
 
 
-    //trigger_error("E_USER_ERROR", E_USER_ERROR);
-    $menu = $this->menu;
-
-
-    $title = 'Page title';
 
     View::setMeta('Заголовок главной страницы', 'Описание главной страницы', 'Ключевые слова главной страницы');
     //$this->setMeta('Главная страница', 'Описание главной страницы', 'Ключевые слова главной страницы');
     //$meta = $this->meta;
 
-    $this->set(compact('title','posts', 'post', 'menu', 'meta'));
+    $this->set(compact('title','posts', 'pagination', 'total'));
   }
 
   public function testAction()

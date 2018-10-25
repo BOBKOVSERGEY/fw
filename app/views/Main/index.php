@@ -1,68 +1,20 @@
-<div class="container">
-  <div id="answer">
-
-  </div>
-  <button class="btn btn-info mb-5" id="send">Кнопка</button>
-  <?php /*new \fw\widgets\menu\Menu(
-    [
-      //'tpl' => WWW . '/menu/select.php',
-      'container' => 'ul',
-      'class' => 'list',
-      'table' => 'categories',
-      'cache' => 60,
-      'cacheKey' => 'menu_ul'
-    ]
-  );*/?>
-
-  <?php new \fw\widgets\menu\Menu(
-    [
-      'tpl' => WWW . '/menu/select.php',
-      'container' => 'select',
-      'class' => 'form-control form-control-lg',
-      'table' => 'categories',
-      'cache' => 60,
-      'cacheKey' => 'menu_select'
-    ]
-  );?>
-    <div class="row">
-        <div class="col-md-12">
-          <?php if(!empty($posts)) {?>
-            <?php foreach ($posts as $post) {?>
-                  <div class="card mb-3">
-                      <div class="card-body">
-                          <h5 class="card-title"><?php echo $post->title?></h5>
-                          <p class="card-text"><?php echo $post->text?></p>
-                      </div>
-                  </div>
-            <?php }?>
-          <?php }?>
-        </div>
+<?php if (!empty($posts)) { ?>
+  <?php foreach ($posts as $post) {?>
+    <div class="content-grid-info">
+      <img src="/blog/images/post1.jpg" alt=""/>
+      <div class="post-info">
+        <h4><a href="<?php echo $post->id;?>"><?php echo $post->title;?></a>  July 30, 2014 / 27 Comments</h4>
+        <p><?php echo $post->excert;?></p>
+        <a href="<?php echo $post->id;?>"><span></span>READ MORE</a>
+      </div>
     </div>
-</div>
-<script src="/js/test.js"></script>
-<script>
-  $(function () {
-    $('#send').on('click', function () {
-      $.ajax({
-        // куда будет идти запрос
-        url: '/main/test',
-        // метод передачи данных
-        type: 'post',
-        // данные которые мы хотим передать
-        'data': {'id':2},
-        // при получении ответа в переменную res выведет ответ
-        success: function (res) {
-          //var data = JSON.parse(res);
-          //$('#answer').html('<p>Ответ: ' + data.answer + ' | Код ответа: ' + data.code + '</p>');
-          //console.log(res);
-
-          $('#answer').html(res);
-        },
-        // если у нас возникнет ошибка с получением ответа
-        error: function () {
-          console.log('wrong');
-        }
-      });
-    })
-  })
-</script>
+  <?php } ?>
+  <div class="text-center">
+    <p>Статей: <?=count($posts);?> из <?=$total;?></p>
+    <?php if($pagination->countPages > 1): ?>
+      <?=$pagination;?>
+    <?php endif; ?>
+  </div>
+<?php } else { ?>
+  <h3>Posts not found</h3>
+<?php } ?>
