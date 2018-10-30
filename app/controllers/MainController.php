@@ -22,7 +22,6 @@ class MainController extends AppController
 
     $model = new Main;
 
-
     $total = \R::count('posts');
     $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
     $perpage = 3;

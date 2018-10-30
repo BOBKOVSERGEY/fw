@@ -8,37 +8,25 @@ class Registry
 
   use TSingleton;
 
-  public static $objects = [];
+  protected static $properties = [];
 
-
-  protected function __construct()
+  public function setProperty($name, $value)
   {
-    require_once ROOT . '/config/config.php';
+    self::$properties[$name] = $value;
+  }
 
-    foreach ($config['components'] as $name => $component) {
-      self::$objects[$name] = new $component;
+  public function getProperty($name)
+  {
+    if (isset(self::$properties[$name])) {
+      return self::$properties[$name];
     }
 
+    return null;
   }
 
-  public function __get($name)
+  public function getProperties()
   {
-    if (is_object(self::$objects[$name])) {
-      return self::$objects[$name];
-    }
+    return self::$properties;
   }
 
-  public function __set($name, $object)
-  {
-    if (!isset(self::$objects[$name])) {
-      self::$objects[$name] = new $object;
-    }
-  }
-
-  public function getList()
-  {
-    echo '<pre>';
-    var_dump(self::$objects);
-    echo '</pre>';
-  }
 }

@@ -364,3 +364,17 @@
 ==========================
 [2018-10-25 15:00:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
 ==========================
+[2018-10-30 13:14:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-30 14:17:11] Текст ошибки: Class 'fw\core\language\Language' not found | Файл: C:\OSPanel\domains\fw\app\controllers\AppController.php, | Строка: 22
+==========================
+[2018-10-30 14:51:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-30 14:51:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-30 14:51:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-30 14:51:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-10-30 14:59:50] Текст ошибки: Undefined index: code | Файл: C:\OSPanel\domains\fw\vendor\fw\widgets\language\lang_tpl.php, | Строка: 8
+==========================
