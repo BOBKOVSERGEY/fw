@@ -16,6 +16,7 @@
   <!--script-->
   <script type="text/javascript" src="/blog/js/move-top.js"></script>
   <script type="text/javascript" src="/blog/js/easing.js"></script>
+  <script type="text/javascript" src="/blog/js/main.js"></script>
   <!--/script-->
   <script type="text/javascript">
     jQuery(document).ready(function($) {
