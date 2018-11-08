@@ -5,7 +5,7 @@
       <div class="post-info">
         <h4><a href="<?php echo $post->id;?>"><?php echo $post->title;?></a>  July 30, 2014 / 27 Comments</h4>
         <p><?php echo $post->excert;?></p>
-        <a href="<?php echo $post->id;?>"><span></span>READ MORE</a>
+        <a href="<?php echo $post->id;?>"><span></span><?php echo __('read_more');?></a>
       </div>
     </div>
   <?php } ?>

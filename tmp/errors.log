@@ -446,3 +446,11 @@
 ==========================
 [2018-11-06 14:05:33] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
 ==========================
+[2018-11-08 15:51:18] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\fw\vendor\fw\core\Router.php, | Строка: 120
+==========================
+[2018-11-08 15:59:35] Текст ошибки: Missing argument 2 for fw\core\base\Lang::load(), called in C:\OSPanel\domains\fw\vendor\fw\core\base\View.php on line 64 and defined | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\Lang.php, | Строка: 11
+==========================
+[2018-11-08 16:35:10] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\Lang.php, | Строка: 13
+==========================
+[2018-11-08 16:35:11] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\fw\vendor\fw\core\base\Lang.php, | Строка: 13
+==========================

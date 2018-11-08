@@ -24,6 +24,11 @@ function h($str)
   return htmlspecialchars($str, ENT_QUOTES);
 }
 
+function __($key)
+{
+  return \fw\core\base\Lang::get($key);
+}
+
 /* gzip сжатие*/
 function obSaveCookieAfter($s)
 {
